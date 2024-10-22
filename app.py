@@ -23,9 +23,10 @@ def main():
 
 
 def display_home():
-    st.subheader("Welcome to AI Marketing Agency")
+    st.subheader("Welcome to MarkerMind AI")
     st.write(
-        "We use advanced AI to revolutionize your marketing strategies. Choose a service from the sidebar to get started.")
+        "Leverage cutting-edge AI technology to enhance your marketing efforts. Select a service from the sidebar to "
+        "begin your journey with MarketMind AI")
     st.write("Our services include:")
     st.write("1. AI-powered content generation")
     st.write("2. Customer behavior prediction using machine learning")
