@@ -8,17 +8,13 @@ MarketMind AI is an innovative AI-powered marketing assistant that helps busines
 2. **Customer Behavior Prediction**: Utilize machine learning to predict customer behavior based on historical data.
 3. **Personalized Campaign Creation**: Generate tailored marketing campaigns for specific target audiences and products.
 
-## Live Demo
-
-You can try out MarketMind AI here: [MarketMind AI Demo](https://your-streamlit-cloud-url.com)
-
 ## Installation
 
 To run MarketMind AI locally, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/marketmind-ai.git
+   git clone https:https://github.com/gulmoharchayande/AI_marketing_agency
    cd marketmind-ai
    ```
 
@@ -73,10 +69,6 @@ To run MarketMind AI locally, follow these steps:
 - Hugging Face Transformers
 - PyTorch
 
-## Contributing
-
-We welcome contributions to MarketMind AI! Please feel free to submit issues, fork the repository and send pull requests!
-
 ## License
 
 NA
@@ -84,8 +76,6 @@ NA
 ## Contact
 
 Gulmohar Chayande - [chayandegulmohar@outlook.com]
-
-Project Link: [https://github.com/your-username/marketmind-ai](https://github.com/your-username/marketmind-ai)
 
 ## Acknowledgments
 
