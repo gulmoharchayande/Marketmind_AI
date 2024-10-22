@@ -40,6 +40,9 @@ def predict_customer_behavior(data):
     imputer = SimpleImputer(strategy='mean')
     data_imputed = pd.DataFrame(imputer.fit_transform(data), columns=data.columns)
 
+    # Ensure that the imputed DataFrame retains the same columns
+    data_imputed.columns = data.columns  # Retain original column names
+
     # Step 4: Encode any remaining categorical variables
     data_processed = encode_categorical(data_imputed)
 
