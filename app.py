@@ -4,6 +4,20 @@ from content_generator import generate_content
 from customer_predictor import predict_customer_behavior
 from personalization_engine import generate_personalized_campaign
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        padding-top: 0rem;
+    }
+    .stApp .stButton > button {
+        display: none;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 
 def main():
     st.set_page_config(page_title="MarketMind AI", page_icon="🚀", layout="wide")
